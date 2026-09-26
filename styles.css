@@ -46,3 +46,6 @@
 .career-roadmap .roadmap-arrow.learning i{border-color:var(--accent)}
 .career-roadmap .roadmap-arrow.future{opacity:.34}
 @media(max-width:820px){.career-roadmap{margin-bottom:30px}.career-roadmap .roadmap-flow{display:flex;overflow-x:auto;gap:8px;padding:8px 2px 10px;scroll-snap-type:x proximity}.career-roadmap .roadmap-step{flex:0 0 145px;scroll-snap-align:start}.career-roadmap .roadmap-arrow{flex:0 0 24px}.career-roadmap .roadmap-head p{font-size:11px}}
+
+/* Remove legacy current-stage badge */
+.career-roadmap .roadmap-step.current:after{content:none!important;display:none!important}
