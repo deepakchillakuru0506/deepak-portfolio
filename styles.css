@@ -78,3 +78,28 @@
 .career-roadmap .roadmap-arrow.future{opacity:1!important}
 .career-roadmap .roadmap-arrow.future i{border-color:rgba(83,230,216,.58)!important}
 .career-roadmap .roadmap-arrow.future b{color:var(--accent)!important}
+
+/* Force stages 04/05 to full visual strength — override legacy future opacity */
+.career-roadmap .roadmap-flow > .roadmap-step.future,
+.career-roadmap .roadmap-flow > .roadmap-step.future.goal{
+  opacity:1!important;
+  filter:none!important;
+  color:#f1f7ff!important;
+  border:1px solid rgba(83,230,216,.32)!important;
+  background:rgba(13,26,43,.58)!important;
+}
+.career-roadmap .roadmap-flow > .roadmap-step.future strong,
+.career-roadmap .roadmap-flow > .roadmap-step.future.goal strong{
+  opacity:1!important;
+  color:#f1f7ff!important;
+}
+.career-roadmap .roadmap-flow > .roadmap-step.future .step-symbol,
+.career-roadmap .roadmap-flow > .roadmap-step.future.goal .step-symbol{
+  opacity:1!important;
+  color:var(--accent)!important;
+}
+.career-roadmap .roadmap-flow > .roadmap-step.future small,
+.career-roadmap .roadmap-flow > .roadmap-step.future.goal small{
+  opacity:1!important;
+  color:var(--accent)!important;
+}
