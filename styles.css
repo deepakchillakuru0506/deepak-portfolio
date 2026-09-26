@@ -49,3 +49,11 @@
 
 /* Remove legacy current-stage badge */
 .career-roadmap .roadmap-step.current:after{content:none!important;display:none!important}
+
+/* Keep future roadmap stages visually consistent with completed/current cards */
+.career-roadmap .roadmap-step.future{opacity:1;background:rgba(13,26,43,.58);border-color:var(--line)}
+.career-roadmap .roadmap-step.future strong{color:#f1f7ff}
+.career-roadmap .roadmap-step.future .step-symbol{color:var(--muted)}
+.career-roadmap .roadmap-step.future small{color:var(--muted);border-color:var(--line);background:rgba(13,26,43,.35)}
+.career-roadmap .roadmap-step.goal{border-color:var(--line)}
+.career-roadmap .roadmap-arrow.future{opacity:.72}
