@@ -57,3 +57,24 @@
 .career-roadmap .roadmap-step.future small{color:var(--muted);border-color:var(--line);background:rgba(13,26,43,.35)}
 .career-roadmap .roadmap-step.goal{border-color:var(--line)}
 .career-roadmap .roadmap-arrow.future{opacity:.72}
+
+/* Future stages use the same card treatment as completed stages */
+.career-roadmap .roadmap-step.future,
+.career-roadmap .roadmap-step.goal{
+  opacity:1!important;
+  border-color:rgba(83,230,216,.32)!important;
+  background:rgba(13,26,43,.58)!important;
+}
+.career-roadmap .roadmap-step.future strong,
+.career-roadmap .roadmap-step.goal strong{color:#f1f7ff!important}
+.career-roadmap .roadmap-step.future .step-symbol,
+.career-roadmap .roadmap-step.goal .step-symbol{color:var(--accent)!important}
+.career-roadmap .roadmap-step.future small,
+.career-roadmap .roadmap-step.goal small{
+  color:var(--accent)!important;
+  border-color:rgba(83,230,216,.28)!important;
+  background:rgba(83,230,216,.04)!important;
+}
+.career-roadmap .roadmap-arrow.future{opacity:1!important}
+.career-roadmap .roadmap-arrow.future i{border-color:rgba(83,230,216,.58)!important}
+.career-roadmap .roadmap-arrow.future b{color:var(--accent)!important}
