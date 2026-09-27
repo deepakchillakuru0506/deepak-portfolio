@@ -394,3 +394,33 @@
  .journey-item,.career-roadmap .roadmap-step{flex:0 0 210px!important;height:170px!important;min-height:170px!important}
  .journey-link,.career-roadmap .roadmap-arrow{flex:0 0 30px!important;padding:0 3px!important}
 }
+
+/* Minimal progression connectors: no arrow glyphs */
+.journey-link,.career-roadmap .roadmap-arrow{
+ position:relative!important;
+ display:flex!important;
+ align-items:center!important;
+ justify-content:center!important;
+ padding:0 9px!important;
+ height:auto!important;
+ background:transparent!important;
+}
+.journey-link i,.career-roadmap .roadmap-arrow i{
+ display:block!important;
+ width:100%!important;
+ height:1px!important;
+ border:0!important;
+ background:linear-gradient(90deg,rgba(83,230,216,.18),rgba(83,230,216,.82),rgba(83,230,216,.18))!important;
+}
+.journey-link b,.career-roadmap .roadmap-arrow b{display:none!important}
+.journey-link:after,.career-roadmap .roadmap-arrow:after{
+ content:""!important;
+ position:absolute!important;
+ right:7px!important;
+ width:6px!important;
+ height:6px!important;
+ border-top:1px solid var(--accent)!important;
+ border-right:1px solid var(--accent)!important;
+ transform:rotate(45deg)!important;
+ background:transparent!important;
+}
