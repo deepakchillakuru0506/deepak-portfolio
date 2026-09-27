@@ -1,7 +1,7 @@
 # Customer Churn Prediction — retail bank customers
 
 Identifies which customers are likely to leave, and which characteristics are associated with
-churn, so retention outreach can be prioritised.
+churn, so retention outreach can be prioritized.
 
 - Notebook: `Customer_Churn_Prediction_Analysis.ipynb`
 - Field documentation: `Bank_Churn_Data_Dictionary.csv`
@@ -12,7 +12,7 @@ churn, so retention outreach can be prioritised.
 age, tenure, balance, number of products, activity status, estimated salary), with `Exited` as
 the target. Churn rate is 20.4%, so the classes are imbalanced and accuracy alone is misleading.
 
-The raw CSV is not committed here — download the public "Churn Modelling" dataset and save it as
+The raw CSV is not committed here — download the public "Churn Modeling" dataset and save it as
 `Bank_Churn.csv` beside the notebook.
 
 ## Method
