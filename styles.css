@@ -314,3 +314,13 @@
  .hero h1{font-size:clamp(38px,10vw,52px)!important}
  .section-head h2,.journey-head h2,.about h2,.skills h2,.contact h2{font-size:clamp(30px,8vw,42px)!important}
 }
+
+/* Expanded impact metrics */
+.hero-stats{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;margin-top:58px!important;border-top:1px solid var(--line)!important;border-bottom:1px solid var(--line)!important}
+.hero-stats>div{min-height:118px!important;padding:24px 24px 22px!important;border-right:1px solid var(--line)!important;border-bottom:1px solid var(--line)!important;box-sizing:border-box!important}
+.hero-stats>div:nth-child(5n){border-right:0!important}
+.hero-stats>div:nth-last-child(-n+5){border-bottom:0!important}
+.hero-stats strong{font-size:30px!important;line-height:1!important}
+.hero-stats span{display:block!important;margin-top:10px!important;font-size:11px!important;line-height:1.35!important}
+@media(max-width:1050px){.hero-stats{grid-template-columns:repeat(2,minmax(0,1fr))!important}.hero-stats>div{border-right:1px solid var(--line)!important;border-bottom:1px solid var(--line)!important}.hero-stats>div:nth-child(2n){border-right:0!important}.hero-stats>div:nth-last-child(-n+2){border-bottom:0!important}}
+@media(max-width:600px){.hero-stats{grid-template-columns:1fr!important}.hero-stats>div{border-right:0!important;border-bottom:1px solid var(--line)!important}.hero-stats>div:last-child{border-bottom:0!important}}
