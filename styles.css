@@ -103,3 +103,21 @@
   opacity:1!important;
   color:var(--accent)!important;
 }
+
+/* Final roadmap treatment: equal visual weight across all five stages */
+.career-roadmap .roadmap-flow>.roadmap-step{
+ opacity:1!important;filter:none!important;
+ border:1px solid rgba(83,230,216,.48)!important;
+ background:linear-gradient(180deg,rgba(18,38,54,.78),rgba(13,26,43,.72))!important;
+ box-shadow:0 0 14px rgba(83,230,216,.045),inset 0 0 0 1px rgba(83,230,216,.025)!important;
+}
+.career-roadmap .roadmap-flow>.roadmap-step strong{color:#f5f8fc!important;opacity:1!important}
+.career-roadmap .roadmap-flow>.roadmap-step small{color:var(--accent)!important;opacity:1!important;border:0!important;background:transparent!important;padding:0!important;justify-content:flex-start!important;width:100%}
+.career-roadmap .roadmap-flow>.roadmap-step.current{border-color:rgba(83,230,216,.78)!important;box-shadow:0 0 18px rgba(83,230,216,.08),inset 0 0 0 1px rgba(83,230,216,.08)!important}
+.career-roadmap .roadmap-flow>.roadmap-step.current:after{content:none!important;display:none!important}
+.career-roadmap .step-number{position:absolute;top:12px;left:14px;color:var(--accent);font-size:11px;font-weight:900;letter-spacing:.04em}
+.career-roadmap .step-icon{top:10px;right:11px;width:19px;height:19px;border-radius:50%;background:#57e98f;color:#07150e;font-size:11px}
+.career-roadmap .roadmap-step strong{margin-top:12px;width:100%;text-align:left}
+.career-roadmap .roadmap-arrow{opacity:1!important}
+.career-roadmap .roadmap-arrow i{border-color:rgba(83,230,216,.72)!important}
+.career-roadmap .roadmap-arrow b{color:var(--accent)!important}
