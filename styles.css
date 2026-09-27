@@ -158,3 +158,11 @@
 .journey-link i{display:block;flex:1;border-top:2px dotted rgba(83,230,216,.78)}
 .journey-link b{color:var(--accent);font-size:21px;font-weight:500}
 @media(max-width:900px){.journey-flow{display:flex;overflow-x:auto;gap:7px;padding:4px 2px 11px}.journey-item{flex:0 0 190px}.journey-link{flex:0 0 30px}}
+
+/* Candidate identity strip */
+.identity-strip{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin:2px 0 22px;color:#aebdcb;font-size:11px;letter-spacing:.025em}
+.identity-strip strong{color:#f5f8fc;font-size:13px;font-weight:800}
+.identity-strip>a{color:var(--accent);text-decoration:none;font-weight:700}
+.identity-strip>a:hover{text-decoration:underline}
+.identity-strip>span:nth-of-type(1),.identity-strip>span:nth-of-type(2),.identity-strip>span:nth-of-type(4){color:rgba(83,230,216,.5)}
+@media(max-width:600px){.identity-strip{gap:7px;font-size:10px;margin-bottom:18px}.identity-strip strong{width:100%;font-size:13px}}
