@@ -502,3 +502,45 @@
 .work-tabs{width:max-content!important;max-width:100%!important}
 .professional-role .project-intro{max-width:980px}
 @media(max-width:700px){.work-tabs{width:100%!important;overflow-x:auto!important}.work-tab{white-space:nowrap!important;flex:0 0 auto!important}}
+
+
+/* Compact About + Contact sections */
+.about{
+  padding-top:58px!important;
+  padding-bottom:58px!important;
+}
+.about h2{
+  font-size:clamp(30px,2.7vw,44px)!important;
+  line-height:1.08!important;
+  max-width:900px!important;
+}
+.about>div>p{
+  font-size:16px!important;
+  line-height:1.6!important;
+  max-width:900px!important;
+}
+.contact{
+  padding-top:64px!important;
+  padding-bottom:64px!important;
+  min-height:0!important;
+}
+.contact h2{
+  font-size:clamp(32px,3vw,48px)!important;
+  line-height:1.08!important;
+  margin-top:18px!important;
+  margin-bottom:30px!important;
+}
+.contact>a{
+  font-size:19px!important;
+}
+footer{
+  padding-top:24px!important;
+  padding-bottom:24px!important;
+}
+@media(max-width:700px){
+  .about{padding-top:44px!important;padding-bottom:44px!important}
+  .about h2{font-size:clamp(28px,8vw,38px)!important}
+  .about>div>p{font-size:15px!important}
+  .contact{padding-top:48px!important;padding-bottom:48px!important}
+  .contact h2{font-size:clamp(30px,9vw,40px)!important}
+}
