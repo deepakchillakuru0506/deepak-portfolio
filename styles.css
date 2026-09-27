@@ -180,3 +180,16 @@
 .nav-identity span{color:#b9c7d6}
 .nav-connect{font-weight:800}
 @media(max-width:800px){.nav-identity{justify-content:flex-start;gap:8px;flex-wrap:wrap}.nav-identity strong{flex:0 0 100%}.nav-identity a,.nav-identity span{font-size:9px}}
+
+/* Profile progression — same visual language as Learning Progression / My Journey */
+.nav-identity{order:-1!important;flex:0 0 100%!important;display:grid!important;grid-template-columns:1.05fr 30px .82fr 30px 1.35fr 30px 1.18fr 30px .72fr!important;align-items:center!important;gap:0!important;padding:0 0 14px!important;border-bottom:0!important}
+.identity-card{position:relative;min-height:54px;display:flex;flex-direction:column;justify-content:center;padding:18px 13px 8px!important;border:1px solid rgba(83,230,216,.40);border-radius:10px;background:linear-gradient(180deg,rgba(18,38,54,.72),rgba(13,26,43,.60));overflow:hidden;text-decoration:none!important}
+.identity-label{position:absolute;top:7px;left:12px;color:var(--accent)!important;font-size:6px!important;letter-spacing:.14em;font-weight:900}
+.identity-card strong,.identity-card a{color:#f5f8fc!important;font-size:9px!important;font-weight:750!important;line-height:1.25;text-decoration:none!important;white-space:nowrap}
+.identity-email a{font-size:8px!important}
+.identity-connect{border-color:rgba(83,230,216,.72);box-shadow:0 0 12px rgba(83,230,216,.05)}
+.identity-connect strong{color:var(--accent)!important}
+.identity-arrow{display:flex;align-items:center;gap:2px;padding:0 3px}
+.identity-arrow i{display:block;flex:1;border-top:2px dotted rgba(83,230,216,.70)}
+.identity-arrow b{color:var(--accent);font-size:17px;font-weight:500}
+@media(max-width:1000px){.nav-identity{display:flex!important;overflow-x:auto;gap:6px!important;padding-bottom:10px!important}.identity-card{flex:0 0 auto;min-width:150px}.identity-email{min-width:190px}.identity-arrow{flex:0 0 24px}.identity-card strong,.identity-card a{font-size:9px!important}}
