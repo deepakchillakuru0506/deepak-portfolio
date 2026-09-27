@@ -346,3 +346,51 @@
 .journey-section{padding-top:28px!important}
 .learning-section{padding-top:28px!important}
 @media(max-width:700px){.journey-section,.learning-section{padding-top:22px!important}}
+
+/* Unify Journey + Learning cards and simplify connectors */
+.journey-flow,.career-roadmap .roadmap-flow{
+ display:grid!important;
+ grid-template-columns:minmax(0,1fr) 36px minmax(0,1fr) 36px minmax(0,1fr) 36px minmax(0,1fr) 36px minmax(0,1fr)!important;
+ align-items:stretch!important;
+}
+.journey-item,.career-roadmap .roadmap-step{
+ width:auto!important;
+ min-width:0!important;
+ height:180px!important;
+ min-height:180px!important;
+ box-sizing:border-box!important;
+}
+.journey-item{padding:48px 18px 18px!important}
+.career-roadmap .roadmap-step{padding:46px 16px 17px!important}
+.journey-link,.career-roadmap .roadmap-arrow{
+ display:flex!important;
+ align-items:center!important;
+ justify-content:center!important;
+ gap:0!important;
+ padding:0 7px!important;
+ opacity:1!important;
+}
+.journey-link i,.career-roadmap .roadmap-arrow i{
+ display:block!important;
+ width:100%!important;
+ flex:1!important;
+ border:0!important;
+ height:1px!important;
+ background:rgba(83,230,216,.58)!important;
+}
+.journey-link b,.career-roadmap .roadmap-arrow b{
+ position:static!important;
+ transform:none!important;
+ margin-left:-1px!important;
+ padding:0!important;
+ background:transparent!important;
+ color:var(--accent)!important;
+ font-size:18px!important;
+ line-height:1!important;
+ font-weight:500!important;
+}
+@media(max-width:900px){
+ .journey-flow,.career-roadmap .roadmap-flow{display:flex!important;overflow-x:auto!important;gap:7px!important}
+ .journey-item,.career-roadmap .roadmap-step{flex:0 0 210px!important;height:170px!important;min-height:170px!important}
+ .journey-link,.career-roadmap .roadmap-arrow{flex:0 0 30px!important;padding:0 3px!important}
+}
