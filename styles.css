@@ -139,3 +139,22 @@
 .journey-link i{display:block;flex:1;border-top:2px dotted rgba(83,230,216,.55)}
 .journey-link b{color:var(--accent);font-size:20px;font-weight:500}
 @media(max-width:900px){.journey-flow{display:flex;overflow-x:auto;gap:8px;padding:5px 2px 10px;scroll-snap-type:x proximity}.journey-item{flex:0 0 175px;scroll-snap-align:start}.journey-link{flex:0 0 22px}.journey-section{padding-top:55px;padding-bottom:58px}}
+
+/* Match My Journey to the Learning Progression visual language */
+.journey-section{padding-top:74px;padding-bottom:76px}
+.journey-head{margin-bottom:26px}
+.journey-flow{display:grid;grid-template-columns:minmax(0,1fr) 42px minmax(0,1fr) 42px minmax(0,1fr) 42px minmax(0,1fr) 42px minmax(0,1fr);align-items:center}
+.journey-item{position:relative;min-height:146px;padding:44px 16px 16px!important;border:1px solid rgba(83,230,216,.48)!important;border-radius:14px!important;background:linear-gradient(180deg,rgba(18,38,54,.78),rgba(13,26,43,.72))!important;box-shadow:0 0 14px rgba(83,230,216,.045),inset 0 0 0 1px rgba(83,230,216,.025)!important}
+.journey-item.education{border-color:rgba(83,230,216,.48)!important}
+.journey-index{position:absolute;top:14px;left:16px!important;right:auto!important;color:var(--accent)!important;font-size:11px;font-weight:900}
+.journey-icon{position:absolute;top:11px;right:13px;color:var(--accent);font-size:12px;font-weight:900}
+.journey-item.experience .journey-icon{display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#78e99a;color:#07150e}
+.journey-item.current{border-color:rgba(83,230,216,.78)!important}
+.journey-item.current .journey-icon{background:transparent;color:var(--accent);font-size:13px}
+.journey-item h3{margin:0 0 8px;color:#f5f8fc;font-size:14px;line-height:1.32;font-weight:800}
+.journey-item p{margin:0 0 15px;color:#b9c7d6;font-size:10px;line-height:1.4}
+.journey-item small{display:block;color:var(--accent);font-size:7px;font-weight:900;letter-spacing:.12em}
+.journey-link{display:flex;align-items:center;gap:3px;padding:0 3px}
+.journey-link i{display:block;flex:1;border-top:2px dotted rgba(83,230,216,.78)}
+.journey-link b{color:var(--accent);font-size:21px;font-weight:500}
+@media(max-width:900px){.journey-flow{display:flex;overflow-x:auto;gap:7px;padding:4px 2px 11px}.journey-item{flex:0 0 190px}.journey-link{flex:0 0 30px}}
