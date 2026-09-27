@@ -171,3 +171,12 @@
 .top-contact-bar{max-width:1530px;margin:0 auto;padding:9px 36px 0}
 .top-contact-bar .identity-strip{margin:0;justify-content:flex-end;min-height:24px}
 @media(max-width:700px){.top-contact-bar{padding:8px 20px 0}.top-contact-bar .identity-strip{justify-content:flex-start}.top-contact-bar .identity-strip strong{width:auto}}
+
+/* Visible recruiter identity row inside header */
+.nav{flex-wrap:wrap!important}
+.nav-identity{order:-1;flex:0 0 100%;display:flex;align-items:center;justify-content:flex-end;gap:16px;padding:1px 0 10px;border-bottom:1px solid rgba(83,230,216,.11);font-size:11px;color:#b9c7d6}
+.nav-identity strong{margin-right:auto;color:#f5f8fc;font-size:12px}
+.nav-identity a{color:var(--accent);text-decoration:none}
+.nav-identity span{color:#b9c7d6}
+.nav-connect{font-weight:800}
+@media(max-width:800px){.nav-identity{justify-content:flex-start;gap:8px;flex-wrap:wrap}.nav-identity strong{flex:0 0 100%}.nav-identity a,.nav-identity span{font-size:9px}}
