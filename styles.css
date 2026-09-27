@@ -544,3 +544,13 @@ footer{
   .contact{padding-top:48px!important;padding-bottom:48px!important}
   .contact h2{font-size:clamp(30px,9vw,40px)!important}
 }
+
+/* --- additions: never hide content; contact + notebook links --- */
+@media print{.reveal{opacity:1!important;transform:none!important}}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1!important;transform:none!important;transition:none!important}}
+.contact-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.contact-links a{padding:8px 15px;border:1px solid rgba(83,230,216,.38);border-radius:999px;color:var(--accent);font-size:12px;font-weight:800;text-decoration:none;letter-spacing:.02em}
+.contact-links a:hover{background:rgba(83,230,216,.12)}
+.notebook-link{margin-top:16px}
+.notebook-link a{display:inline-block;padding:9px 16px;border:1px solid rgba(83,230,216,.55);border-radius:999px;color:var(--accent);font-size:12px;font-weight:800;text-decoration:none}
+.notebook-link a:hover{background:rgba(83,230,216,.12)}
