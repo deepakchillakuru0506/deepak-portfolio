@@ -341,3 +341,8 @@
 .nav-identity .identity-arrow{position:relative!important;display:block!important;height:2px!important;padding:0!important;margin:0 4px!important;background:rgba(83,230,216,.58)!important}
 .nav-identity .identity-arrow i{display:none!important}
 .nav-identity .identity-arrow b{position:absolute!important;right:-2px!important;top:50%!important;transform:translateY(-55%)!important;background:#081321!important;padding-left:3px!important;color:var(--accent)!important;font-size:16px!important;line-height:1!important}
+
+/* Tighten spacing before My Journey and My Learning Progression */
+.journey-section{padding-top:28px!important}
+.learning-section{padding-top:28px!important}
+@media(max-width:700px){.journey-section,.learning-section{padding-top:22px!important}}
