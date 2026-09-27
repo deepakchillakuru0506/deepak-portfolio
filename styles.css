@@ -193,3 +193,16 @@
 .identity-arrow i{display:block;flex:1;border-top:2px dotted rgba(83,230,216,.70)}
 .identity-arrow b{color:var(--accent);font-size:17px;font-weight:500}
 @media(max-width:1000px){.nav-identity{display:flex!important;overflow-x:auto;gap:6px!important;padding-bottom:10px!important}.identity-card{flex:0 0 auto;min-width:150px}.identity-email{min-width:190px}.identity-arrow{flex:0 0 24px}.identity-card strong,.identity-card a{font-size:9px!important}}
+
+/* Final recruiter header: clean single-line identity, not another roadmap */
+.nav{display:grid!important;grid-template-columns:auto 1fr auto!important;grid-template-rows:auto!important;align-items:center!important;column-gap:28px!important;flex-wrap:nowrap!important}
+.nav-identity{order:0!important;grid-column:1!important;display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:8px!important;padding:0!important;border:0!important;min-width:0!important;white-space:nowrap!important;color:#aebdcb!important;font-size:10px!important}
+.nav-identity strong{color:#f5f8fc!important;font-size:11px!important;font-weight:800!important;margin:0!important}
+.nav-identity a{color:#b9c7d6!important;text-decoration:none!important;font-size:10px!important;font-weight:500!important}
+.nav-identity a:hover{color:var(--accent)!important}
+.nav-identity .nav-dot{color:rgba(83,230,216,.48)!important}
+.nav-identity .nav-connect{margin-left:5px!important;padding:6px 10px!important;border:1px solid rgba(83,230,216,.38)!important;border-radius:999px!important;color:var(--accent)!important;font-weight:800!important}
+.nav>.brand{grid-column:2!important;justify-self:center!important}
+.nav>nav{grid-column:3!important;justify-self:end!important}
+@media(max-width:1050px){.nav{grid-template-columns:auto 1fr!important;row-gap:12px!important}.nav-identity{grid-column:1/-1!important;overflow-x:auto!important;padding-bottom:3px!important}.nav>.brand{grid-column:1!important;justify-self:start!important}.nav>nav{grid-column:2!important}}
+@media(max-width:650px){.nav-identity{gap:6px!important;font-size:9px!important}.nav-identity strong,.nav-identity a{font-size:9px!important}.nav-identity .nav-connect{padding:5px 8px!important}}
