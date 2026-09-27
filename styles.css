@@ -166,3 +166,8 @@
 .identity-strip>a:hover{text-decoration:underline}
 .identity-strip>span:nth-of-type(1),.identity-strip>span:nth-of-type(2),.identity-strip>span:nth-of-type(4){color:rgba(83,230,216,.5)}
 @media(max-width:600px){.identity-strip{gap:7px;font-size:10px;margin-bottom:18px}.identity-strip strong{width:100%;font-size:13px}}
+
+/* Keep candidate identity details at the very top, above the main navigation */
+.top-contact-bar{max-width:1530px;margin:0 auto;padding:9px 36px 0}
+.top-contact-bar .identity-strip{margin:0;justify-content:flex-end;min-height:24px}
+@media(max-width:700px){.top-contact-bar{padding:8px 20px 0}.top-contact-bar .identity-strip{justify-content:flex-start}.top-contact-bar .identity-strip strong{width:auto}}
