@@ -424,3 +424,35 @@
  transform:rotate(45deg)!important;
  background:transparent!important;
 }
+
+/* Match profile connectors to Journey / Learning Progression */
+.nav-identity .identity-arrow{
+ position:relative!important;
+ display:flex!important;
+ align-items:center!important;
+ justify-content:center!important;
+ height:auto!important;
+ padding:0 7px!important;
+ margin:0!important;
+ background:transparent!important;
+}
+.nav-identity .identity-arrow i{
+ display:block!important;
+ width:100%!important;
+ flex:1!important;
+ height:1px!important;
+ border:0!important;
+ background:linear-gradient(90deg,rgba(83,230,216,.18),rgba(83,230,216,.82),rgba(83,230,216,.18))!important;
+}
+.nav-identity .identity-arrow b{display:none!important}
+.nav-identity .identity-arrow:after{
+ content:""!important;
+ position:absolute!important;
+ right:5px!important;
+ width:6px!important;
+ height:6px!important;
+ border-top:1px solid var(--accent)!important;
+ border-right:1px solid var(--accent)!important;
+ transform:rotate(45deg)!important;
+ background:transparent!important;
+}
