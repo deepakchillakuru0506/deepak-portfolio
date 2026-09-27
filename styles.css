@@ -222,3 +222,16 @@
 .nav>.brand{order:0!important;margin-right:auto!important}
 .nav>nav{order:1!important}
 @media(max-width:900px){.nav-identity{display:flex!important;overflow-x:auto!important;gap:7px!important;padding-bottom:12px!important}.nav-identity .identity-card{flex:0 0 180px!important}.nav-identity .identity-arrow{flex:0 0 27px!important}}
+
+/* Structural alignment pass */
+.hero,.journey-section,.learning-section,#work,.about,.skills{max-width:1480px!important;margin-left:auto!important;margin-right:auto!important;padding-left:36px!important;padding-right:36px!important;box-sizing:border-box!important}
+.hero{padding-top:88px!important;padding-bottom:72px!important}
+.hero h1{max-width:1120px!important;margin-top:0!important}
+.hero .lede{max-width:850px!important}
+.journey-section{padding-top:68px!important;padding-bottom:68px!important}
+.learning-section{padding-top:68px!important;padding-bottom:76px!important}
+.learning-section .career-roadmap{margin:0!important;width:100%!important}
+.career-roadmap .roadmap-head{margin-bottom:26px!important}
+.career-roadmap .roadmap-flow{width:100%!important}
+.section-head,.journey-head{align-items:end!important}
+@media(max-width:700px){.hero,.journey-section,.learning-section,#work,.about,.skills{padding-left:20px!important;padding-right:20px!important}.hero{padding-top:56px!important}}
